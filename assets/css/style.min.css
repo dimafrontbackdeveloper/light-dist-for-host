@@ -1839,13 +1839,24 @@ body {
   transform: translateX(-20px) scale(115%);
 }
 .footer__row:last-child .footer__column:nth-child(1) {
-  transform: translateX(30px);
+  transform: translateX(50px);
 }
 .footer__row:last-child .footer__column:nth-child(1):hover {
-  transform: translateX(30px) scale(115%);
+  transform: translateX(50px) scale(115%);
+}
+.footer__row:last-child .footer__column:nth-child(2) {
+  transform: translateX(-15px);
 }
 .footer__row:last-child .footer__column:nth-child(2):hover {
-  transform: scale(115%);
+  transform: translateX(-15px) scale(115%);
+}
+@media screen and (max-width: 1800px) {
+  .footer__row:last-child .footer__column:nth-child(2) {
+    transform: translateX(0px);
+  }
+  .footer__row:last-child .footer__column:nth-child(2):hover {
+    transform: scale(115%);
+  }
 }
 .footer__row:last-child .footer__column:nth-child(3) {
   transform: translateX(-50px);

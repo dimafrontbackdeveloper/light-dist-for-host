@@ -708,12 +708,6 @@ body {
     height: calc(50px + 20 * ((100vw - 320px) / 1600));
 }
 
-@media screen and (max-width: 768px) {
-    .intro {
-        margin-bottom: 200px;
-    }
-}
-
 .intro__bg {
     position: absolute;
 }
@@ -1334,6 +1328,13 @@ body {
 @media screen and (max-width: 768px) {
     .intro__row {
         display: block;
+        margin-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .intro__row {
+        margin-bottom: 70px;
     }
 }
 
@@ -2351,5 +2352,19 @@ body {
     .footer__column {
         -ms-flex: 0 0 70px;
         flex: 0 0 70px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer__column {
+        -ms-flex: 0 0 150px;
+        flex: 0 0 150px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .footer__column {
+        -ms-flex: 0 0 120px;
+        flex: 0 0 120px;
     }
 }
