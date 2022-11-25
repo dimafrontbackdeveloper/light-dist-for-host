@@ -723,99 +723,94 @@ body {
     width: 95%;
     height: 1569px;
     left: 34px;
-    top: 1226px;
-  /*
-     height: 2298px;
-     left: 0px;
-     top: 702px;
-  */
+    top: 1174px;
 }
 
 @media screen and (max-width: 1800px) {
     .intro__bg-details {
         height: 1371px;
-        top: 1264px;
+        top: 1214px;
     }
 }
 
 @media screen and (max-width: 1700px) {
     .intro__bg-details {
-        top: 1220px;
+        top: 1170px;
     }
 }
 
 @media screen and (max-width: 1600px) {
     .intro__bg-details {
         height: 1271px;
-        top: 1250px;
+        top: 1200px;
     }
 }
 
 @media screen and (max-width: 1500px) {
     .intro__bg-details {
         height: 1171px;
-        top: 1280px;
+        top: 1220px;
     }
 }
 
 @media screen and (max-width: 1440px) {
     .intro__bg-details {
-        top: 1060px;
+        top: 1020px;
     }
 }
 
 @media screen and (max-width: 1400px) {
     .intro__bg-details {
         height: 1100px;
-        top: 1050px;
+        top: 1020px;
     }
 }
 
 @media screen and (max-width: 1300px) {
     .intro__bg-details {
         height: 1050px;
-        top: 1050px;
+        top: 1010px;
     }
 }
 
 @media screen and (max-width: 1200px) {
     .intro__bg-details {
         height: 1000px;
-        top: 1030px;
+        top: 1000px;
     }
 }
 
 @media screen and (max-width: 1100px) {
     .intro__bg-details {
         height: 950px;
-        top: 1000px;
+        top: 963px;
     }
 }
 
 @media screen and (max-width: 1024px) {
     .intro__bg-details {
-        top: 930px;
+        top: 890px;
     }
 }
 
 @media screen and (max-width: 1000px) {
     .intro__bg-details {
         height: 900px;
-        top: 920px;
+        top: 880px;
     }
 }
 
 @media screen and (max-width: 900px) {
     .intro__bg-details {
         height: 800px;
-        top: 930px;
+        top: 890px;
     }
 }
 
 @media screen and (max-width: 800px) {
     .intro__bg-details {
         height: 730px;
-        top: 930px;
+        top: 890px;
     }
 }
 
@@ -824,97 +819,97 @@ body {
     width: 81%;
     height: 1765px;
     left: 0;
-    top: 1215px;
+    top: 1163px;
 }
 
 @media screen and (max-width: 1800px) {
     .intro__bg-tunnel-shadow {
         height: 1630px;
-        top: 1205px;
+        top: 1155px;
     }
 }
 
 @media screen and (max-width: 1700px) {
     .intro__bg-tunnel-shadow {
         height: 1530px;
-        top: 1220px;
+        top: 1175px;
     }
 }
 
 @media screen and (max-width: 1600px) {
     .intro__bg-tunnel-shadow {
         height: 1470px;
-        top: 1220px;
+        top: 1170px;
     }
 }
 
 @media screen and (max-width: 1500px) {
     .intro__bg-tunnel-shadow {
         height: 1390px;
-        top: 1230px;
+        top: 1170px;
     }
 }
 
 @media screen and (max-width: 1440px) {
     .intro__bg-tunnel-shadow {
         height: 1390px;
-        top: 1010px;
+        top: 970px;
     }
 }
 
 @media screen and (max-width: 1400px) {
     .intro__bg-tunnel-shadow {
         height: 1305px;
-        top: 1010px;
+        top: 983px;
     }
 }
 
 @media screen and (max-width: 1300px) {
     .intro__bg-tunnel-shadow {
         height: 1230px;
-        top: 1010px;
+        top: 970px;
     }
 }
 
 @media screen and (max-width: 1200px) {
     .intro__bg-tunnel-shadow {
         height: 1150px;
-        top: 1010px;
+        top: 980px;
     }
 }
 
 @media screen and (max-width: 1100px) {
     .intro__bg-tunnel-shadow {
         height: 1080px;
-        top: 1000px;
+        top: 965px;
     }
 }
 
 @media screen and (max-width: 1024px) {
     .intro__bg-tunnel-shadow {
         height: 1072px;
-        top: 925px;
+        top: 887px;
     }
 }
 
 @media screen and (max-width: 1000px) {
     .intro__bg-tunnel-shadow {
         height: 1000px;
-        top: 920px;
+        top: 881px;
     }
 }
 
 @media screen and (max-width: 900px) {
     .intro__bg-tunnel-shadow {
         height: 920px;
-        top: 920px;
+        top: 881px;
     }
 }
 
 @media screen and (max-width: 800px) {
     .intro__bg-tunnel-shadow {
         height: 850px;
-        top: 915px;
+        top: 874px;
     }
 }
 
@@ -923,95 +918,95 @@ body {
     width: 100%;
     height: 2298px;
     left: 0px;
-    top: 702px;
+    top: 650px;
 }
 
 @media screen and (max-width: 1800px) {
     .intro__bg-tunnel-obj {
         height: 2100px;
-        top: 740px;
+        top: 690px;
     }
 }
 
 @media screen and (max-width: 1700px) {
     .intro__bg-tunnel-obj {
         height: 2000px;
-        top: 770px;
+        top: 720px;
     }
 }
 
 @media screen and (max-width: 1600px) {
     .intro__bg-tunnel-obj {
         height: 1900px;
-        top: 800px;
+        top: 750px;
     }
 }
 
 @media screen and (max-width: 1500px) {
     .intro__bg-tunnel-obj {
         height: 1800px;
-        top: 830px;
+        top: 770px;
     }
 }
 
 @media screen and (max-width: 1440px) {
     .intro__bg-tunnel-obj {
-        top: 610px;
+        top: 570px;
     }
 }
 
 @media screen and (max-width: 1400px) {
     .intro__bg-tunnel-obj {
         height: 1700px;
-        top: 630px;
+        top: 600px;
     }
 }
 
 @media screen and (max-width: 1300px) {
     .intro__bg-tunnel-obj {
         height: 1600px;
-        top: 650px;
+        top: 610px;
     }
 }
 
 @media screen and (max-width: 1200px) {
     .intro__bg-tunnel-obj {
         height: 1500px;
-        top: 670px;
+        top: 640px;
     }
 }
 
 @media screen and (max-width: 1100px) {
     .intro__bg-tunnel-obj {
         height: 1400px;
-        top: 690px;
+        top: 653px;
     }
 }
 
 @media screen and (max-width: 1024px) {
     .intro__bg-tunnel-obj {
-        top: 610px;
+        top: 570px;
     }
 }
 
 @media screen and (max-width: 1000px) {
     .intro__bg-tunnel-obj {
         height: 1300px;
-        top: 630px;
+        top: 590px;
     }
 }
 
 @media screen and (max-width: 900px) {
     .intro__bg-tunnel-obj {
         height: 1200px;
-        top: 650px;
+        top: 610px;
     }
 }
 
 @media screen and (max-width: 800px) {
     .intro__bg-tunnel-obj {
         height: 1100px;
-        top: 670px;
+        top: 630px;
     }
 }
 
@@ -1020,97 +1015,97 @@ body {
     width: 100%;
     height: 1941px;
     left: 0px;
-    top: 1059px;
+    top: 1007px;
 }
 
 @media screen and (max-width: 1800px) {
     .intro__bg-stones-shadow {
         height: 1770px;
-        top: 1070px;
+        top: 1019px;
     }
 }
 
 @media screen and (max-width: 1700px) {
     .intro__bg-stones-shadow {
         height: 1690px;
-        top: 1080px;
+        top: 1030px;
     }
 }
 
 @media screen and (max-width: 1600px) {
     .intro__bg-stones-shadow {
         height: 1605px;
-        top: 1095px;
+        top: 1045px;
     }
 }
 
 @media screen and (max-width: 1500px) {
     .intro__bg-stones-shadow {
         height: 1520px;
-        top: 1110px;
+        top: 1050px;
     }
 }
 
 @media screen and (max-width: 1440px) {
     .intro__bg-stones-shadow {
         height: 1520px;
-        top: 890px;
+        top: 850px;
     }
 }
 
 @media screen and (max-width: 1400px) {
     .intro__bg-stones-shadow {
         height: 1440px;
-        top: 892px;
+        top: 862px;
     }
 }
 
 @media screen and (max-width: 1300px) {
     .intro__bg-stones-shadow {
         height: 1350px;
-        top: 900px;
+        top: 860px;
     }
 }
 
 @media screen and (max-width: 1200px) {
     .intro__bg-stones-shadow {
         height: 1270px;
-        top: 900px;
+        top: 872px;
     }
 }
 
 @media screen and (max-width: 1100px) {
     .intro__bg-stones-shadow {
         height: 1183px;
-        top: 907px;
+        top: 870px;
     }
 }
 
 @media screen and (max-width: 1024px) {
     .intro__bg-stones-shadow {
         height: 1180px;
-        top: 830px;
+        top: 787px;
     }
 }
 
 @media screen and (max-width: 1000px) {
     .intro__bg-stones-shadow {
-        height: 1094px;
-        top: 835px;
+        height: 1096px;
+        top: 794px;
     }
 }
 
 @media screen and (max-width: 900px) {
     .intro__bg-stones-shadow {
         height: 1014px;
-        top: 837px;
+        top: 797px;
     }
 }
 
 @media screen and (max-width: 800px) {
     .intro__bg-stones-shadow {
         height: 930px;
-        top: 840px;
+        top: 800px;
     }
 }
 
@@ -1119,97 +1114,97 @@ body {
     width: 81%;
     height: 1767px;
     left: 0;
-    top: 1217px;
+    top: 1165px;
 }
 
 @media screen and (max-width: 1800px) {
     .intro__bg-tunnel {
         height: 1630px;
-        top: 1205px;
+        top: 1155px;
     }
 }
 
 @media screen and (max-width: 1700px) {
     .intro__bg-tunnel {
         height: 1530px;
-        top: 1220px;
+        top: 1175px;
     }
 }
 
 @media screen and (max-width: 1600px) {
     .intro__bg-tunnel {
         height: 1470px;
-        top: 1220px;
+        top: 1170px;
     }
 }
 
 @media screen and (max-width: 1500px) {
     .intro__bg-tunnel {
         height: 1390px;
-        top: 1230px;
+        top: 1170px;
     }
 }
 
 @media screen and (max-width: 1440px) {
     .intro__bg-tunnel {
         height: 1390px;
-        top: 1010px;
+        top: 970px;
     }
 }
 
 @media screen and (max-width: 1400px) {
     .intro__bg-tunnel {
         height: 1305px;
-        top: 1010px;
+        top: 983px;
     }
 }
 
 @media screen and (max-width: 1300px) {
     .intro__bg-tunnel {
         height: 1230px;
-        top: 1010px;
+        top: 970px;
     }
 }
 
 @media screen and (max-width: 1200px) {
     .intro__bg-tunnel {
         height: 1150px;
-        top: 1010px;
+        top: 980px;
     }
 }
 
 @media screen and (max-width: 1100px) {
     .intro__bg-tunnel {
         height: 1080px;
-        top: 1000px;
+        top: 965px;
     }
 }
 
 @media screen and (max-width: 1024px) {
     .intro__bg-tunnel {
         height: 1072px;
-        top: 925px;
+        top: 887px;
     }
 }
 
 @media screen and (max-width: 1000px) {
     .intro__bg-tunnel {
         height: 1000px;
-        top: 920px;
+        top: 881px;
     }
 }
 
 @media screen and (max-width: 900px) {
     .intro__bg-tunnel {
         height: 920px;
-        top: 920px;
+        top: 881px;
     }
 }
 
 @media screen and (max-width: 800px) {
     .intro__bg-tunnel {
         height: 850px;
-        top: 915px;
+        top: 874px;
     }
 }
 
@@ -1218,97 +1213,97 @@ body {
     width: 100%;
     height: 1941px;
     left: 0px;
-    top: 1059px;
+    top: 1007px;
 }
 
 @media screen and (max-width: 1800px) {
     .intro__bg-stones {
         height: 1770px;
-        top: 1070px;
+        top: 1019px;
     }
 }
 
 @media screen and (max-width: 1700px) {
     .intro__bg-stones {
         height: 1690px;
-        top: 1080px;
+        top: 1030px;
     }
 }
 
 @media screen and (max-width: 1600px) {
     .intro__bg-stones {
         height: 1605px;
-        top: 1095px;
+        top: 1045px;
     }
 }
 
 @media screen and (max-width: 1500px) {
     .intro__bg-stones {
         height: 1520px;
-        top: 1110px;
+        top: 1050px;
     }
 }
 
 @media screen and (max-width: 1440px) {
     .intro__bg-stones {
         height: 1520px;
-        top: 890px;
+        top: 850px;
     }
 }
 
 @media screen and (max-width: 1400px) {
     .intro__bg-stones {
         height: 1440px;
-        top: 892px;
+        top: 862px;
     }
 }
 
 @media screen and (max-width: 1300px) {
     .intro__bg-stones {
         height: 1350px;
-        top: 900px;
+        top: 860px;
     }
 }
 
 @media screen and (max-width: 1200px) {
     .intro__bg-stones {
         height: 1270px;
-        top: 900px;
+        top: 872px;
     }
 }
 
 @media screen and (max-width: 1100px) {
     .intro__bg-stones {
         height: 1183px;
-        top: 907px;
+        top: 870px;
     }
 }
 
 @media screen and (max-width: 1024px) {
     .intro__bg-stones {
         height: 1180px;
-        top: 830px;
+        top: 787px;
     }
 }
 
 @media screen and (max-width: 1000px) {
     .intro__bg-stones {
-        height: 1094px;
-        top: 835px;
+        height: 1096px;
+        top: 794px;
     }
 }
 
 @media screen and (max-width: 900px) {
     .intro__bg-stones {
         height: 1014px;
-        top: 837px;
+        top: 797px;
     }
 }
 
 @media screen and (max-width: 800px) {
     .intro__bg-stones {
         height: 930px;
-        top: 840px;
+        top: 800px;
     }
 }
 
@@ -2288,18 +2283,35 @@ body {
 }
 
 .footer__row:last-child .footer__column:nth-child(1) {
-    -webkit-transform: translateX(30px);
-    transform: translateX(30px);
+    -webkit-transform: translateX(50px);
+    transform: translateX(50px);
 }
 
 .footer__row:last-child .footer__column:nth-child(1):hover {
-    -webkit-transform: translateX(30px) scale(115%);
-    transform: translateX(30px) scale(115%);
+    -webkit-transform: translateX(50px) scale(115%);
+    transform: translateX(50px) scale(115%);
+}
+
+.footer__row:last-child .footer__column:nth-child(2) {
+    -webkit-transform: translateX(-15px);
+    transform: translateX(-15px);
 }
 
 .footer__row:last-child .footer__column:nth-child(2):hover {
-    -webkit-transform: scale(115%);
-    transform: scale(115%);
+    -webkit-transform: translateX(-15px) scale(115%);
+    transform: translateX(-15px) scale(115%);
+}
+
+@media screen and (max-width: 1800px) {
+    .footer__row:last-child .footer__column:nth-child(2) {
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px);
+    }
+
+    .footer__row:last-child .footer__column:nth-child(2):hover {
+        -webkit-transform: scale(115%);
+        transform: scale(115%);
+    }
 }
 
 .footer__row:last-child .footer__column:nth-child(3) {
