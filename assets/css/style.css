@@ -290,50 +290,17 @@ body {
 
 .header {
     position: relative;
-    padding-top: 60px;
-    padding-right: 10px;
-    padding-left: 10px;
-    height: 1233px;
-    font-size: 50px;
-    line-height: 51px;
 }
 
 @media screen and (max-width: 2560px) {
     .header {
-        height: 1400px;
+        height: calc(1260px + 430 * ((100vw - 1920px) / 640));
     }
 }
 
 @media screen and (max-width: 1920px) {
     .header {
-        height: 1200px;
-    }
-}
-
-@media screen and (max-width: 1440px) {
-    .header {
-        height: 1000px;
-        padding-top: 40px;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    .header {
-        height: 900px;
-        padding-top: 40px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .header {
-        height: 700px;
-        padding-top: 20px;
-    }
-}
-
-@media screen and (max-width: 425px) {
-    .header {
-        height: 590px;
+        height: 1260px;
     }
 }
 
@@ -343,165 +310,112 @@ body {
 }
 
 .header__bg1 {
-    width: calc(350px + 1000 * ((100vw - 320px) / 1600));
-    height: calc(100px + 398 * ((100vw - 320px) / 1600));
+    width: 71%;
     bottom: 0;
     left: 0;
-    z-index: 10;
-}
-
-@media screen and (min-width: 1921px) {
-    .header__bg1 {
-        width: calc(350px + 1020 * ((100vw - 320px) / 1600));
-    }
-}
-
-.header__bg2 {
-    width: calc(270px + 890 * ((100vw - 320px) / 1600));
-    height: calc(220px + 752 * ((100vw - 320px) / 1600));
-    bottom: 36px;
-    right: 0;
     z-index: 9;
 }
 
-@media screen and (min-width: 1921px) {
+.header__bg2 {
+    right: -17px;
+    width: 61%;
+    z-index: 8;
+}
+
+@media screen and (max-width: 2560px) {
     .header__bg2 {
-        bottom: 50px;
+        bottom: calc(35px + 20 * ((100vw - 1920px) / 640));
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1920px) {
     .header__bg2 {
-        right: -50px;
-        bottom: 20px;
+        bottom: 35px;
     }
 }
 
 .header__bg3 {
-    width: calc(665px + 1255 * ((100vw - 320px) / 1600));
-    height: calc(150px + 379 * ((100vw - 320px) / 1600));
-    bottom: calc(40px + 165 * ((100vw - 320px) / 1600));
-    left: 0;
-    z-index: 8;
+    z-index: 7;
+    width: 101%;
 }
 
-@media screen and (min-width: 1921px) {
+@media screen and (max-width: 2560px) {
     .header__bg3 {
-        width: 100%;
+        left: -5px;
+        bottom: calc(234px + 76 * ((100vw - 1920px) / 640));
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1920px) {
     .header__bg3 {
-        left: -350px;
-        bottom: calc(70px + 180 * ((100vw - 320px) / 1600));
-    }
-}
-
-@media screen and (max-width: 425px) {
-    .header__bg3 {
-        left: -300px;
+        left: 0;
+        bottom: 234px;
     }
 }
 
 .header__bg4 {
-    width: calc(700px + 1220 * ((100vw - 320px) / 1600));
-    height: calc(150px + 266 * ((100vw - 320px) / 1600));
-    bottom: calc(80px + 250 * ((100vw - 320px) / 1600));
-    z-index: 7;
+    z-index: 6;
+    width: 100%;
+    right: -10px;
 }
 
-@media screen and (min-width: 1921px) {
+@media screen and (max-width: 2560px) {
     .header__bg4 {
-        width: 100%;
+        bottom: calc(302px + 105 * ((100vw - 1920px) / 640));
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1920px) {
     .header__bg4 {
-        left: -270px;
-    }
-}
-
-@media screen and (max-width: 425px) {
-    .header__bg4 {
-        left: -300px;
+        bottom: 302px;
     }
 }
 
 .header__bg5 {
-    width: calc(360px + 1560 * ((100vw - 320px) / 1600));
-    height: calc(200px + 564 * ((100vw - 320px) / 1600));
-    bottom: 139px;
     left: 0;
-    z-index: 6;
-    -webkit-animation: header-an 3s linear infinite;
-    animation: header-an 3s linear infinite;
+    width: 100%;
+    z-index: 5;
 }
 
-@media screen and (min-width: 1921px) {
+@media screen and (max-width: 2560px) {
     .header__bg5 {
-        width: 100%;
-        bottom: 170px;
+        bottom: calc(150px + 80 * ((100vw - 1920px) / 640));
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1920px) {
     .header__bg5 {
-        bottom: 110px;
+        bottom: 150px;
     }
 }
 
 .header__bg6 {
-    width: calc(630px + 1290 * ((100vw - 320px) / 1600));
-    height: calc(220px + 487 * ((100vw - 320px) / 1600));
-    bottom: calc(150px + 150 * ((100vw - 320px) / 1600));
     left: 0;
-    z-index: 5;
+    width: 101%;
+    z-index: 4;
 }
 
-@media screen and (min-width: 1921px) {
+@media screen and (max-width: 2560px) {
     .header__bg6 {
-        width: 100%;
+        bottom: calc(400px + 140 * ((100vw - 1920px) / 640));
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 1920px) {
     .header__bg6 {
-        display: none;
+        bottom: 400px;
     }
 }
 
 .header__mountains-mobile {
     display: none;
-    position: absolute;
-    z-index: 5;
-    bottom: calc(120px + 180 * ((100vw - 320px) / 1600));
-    left: -130px;
-    max-width: 150%;
-}
-
-@media screen and (max-width: 425px) {
-    .header__mountains-mobile {
-        display: block;
-    }
 }
 
 .header__bg7 {
-    width: calc(500px + 1420 * ((100vw - 320px) / 1600));
-    height: 100%;
-    top: -200px;
+    top: 0;
     left: 0;
-    z-index: 4;
-    -webkit-animation: header-an 5s linear infinite;
-    animation: header-an 5s linear infinite;
-}
-
-@media screen and (min-width: 1921px) {
-    .header__bg7 {
-        width: 100%;
-        top: -300px;
-    }
+    width: 100%;
+    z-index: 3;
 }
 
 @-webkit-keyframes header-an {
@@ -525,32 +439,17 @@ body {
 }
 
 .header__bg8 {
-    width: calc(870px + 1050 * ((100vw - 320px) / 1600));
-    height: calc(200px + 363 * ((100vw - 320px) / 1600));
     top: 0;
     left: 0;
-    z-index: 3;
-}
-
-@media screen and (min-width: 1921px) {
-    .header__bg8 {
-        width: 100%;
-    }
-}
-
-.header__bg9 {
-    width: calc(443px + 1477 * ((100vw - 320px) / 1600));
-    height: 100%;
-    top: -200px;
-    left: 0;
+    width: 100%;
     z-index: 2;
 }
 
-@media screen and (min-width: 1921px) {
-    .header__bg9 {
-        width: 100%;
-        top: -300px;
-    }
+.header__bg9 {
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 .header__nav {
@@ -633,16 +532,10 @@ body {
 }
 
 .header__text-right {
+    position: absolute;
+    top: 160px;
+    right: 0;
     z-index: 11;
-    width: 100%;
-    padding-top: 100px;
-}
-
-@media screen and (max-width: 425px) {
-    .header__text-right {
-        display: block;
-        padding-top: 50px;
-    }
 }
 
 .header__text-right img {
