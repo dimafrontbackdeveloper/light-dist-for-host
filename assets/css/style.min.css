@@ -674,37 +674,37 @@ body {
 }
 .header__text-right {
   position: absolute;
-  right: 0;
+  right: 20px;
   z-index: 11;
 }
 @media screen and (max-width: 2560px) {
   .header__text-right {
-    top: calc(200px + 60 * ((100vw - 1920px) / 640));
+    top: calc(250px + 100 * ((100vw - 1920px) / 640));
   }
 }
 @media screen and (max-width: 1920px) {
   .header__text-right {
-    top: calc(120px + 40 * ((100vw - 1024px) / 416));
+    top: calc(170px + 40 * ((100vw - 1024px) / 416));
   }
 }
 @media screen and (max-width: 1440px) {
   .header__text-right {
-    top: calc(120px + 50 * ((100vw - 1024px) / 416));
+    top: calc(140px + 70 * ((100vw - 1024px) / 416));
   }
 }
 @media screen and (max-width: 1024px) {
   .header__text-right {
-    top: calc(100px + 30 * ((100vw - 768px) / 256));
+    top: calc(120px + 30 * ((100vw - 768px) / 256));
   }
 }
 @media screen and (max-width: 768px) {
   .header__text-right {
-    top: calc(160px + -50 * ((100vw - 425px) / 343));
+    top: calc(180px + -70 * ((100vw - 425px) / 343));
   }
 }
 @media screen and (max-width: 425px) {
   .header__text-right {
-    top: calc(295px + 25 * ((100vw - 375px) / 50));
+    top: calc(320px + 30 * ((100vw - 375px) / 50));
   }
 }
 .header__text-right img {

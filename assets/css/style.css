@@ -1493,7 +1493,7 @@ body {
 
 @media screen and (max-width: 1920px) {
     .intro .lamp4 {
-        top: calc(502px + 168 * ((100vw - 1440px) / 480));
+        top: calc(502px + 158 * ((100vw - 1440px) / 480));
     }
 }
 
