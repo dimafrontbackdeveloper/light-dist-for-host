@@ -1,1 +1,92 @@
-body{color:#fff;font-family:living_by_numbersregular,sans-serif;font-style:normal;font-weight:400;background:#120b12}.d-f{display:-ms-flexbox;display:flex}.d-g{display:grid}.jc-sb{-ms-flex-pack:justify;justify-content:space-between}.jc-c{-ms-flex-pack:center;justify-content:center}.jc-s{-ms-flex-pack:start;justify-content:start}.jc-e{-ms-flex-pack:end;justify-content:end}.ai-c{-ms-flex-align:center;align-items:center}.fd-c{-ms-flex-direction:column;flex-direction:column}.fw-w{-ms-flex-wrap:wrap;flex-wrap:wrap}.ta-c{text-align:center}.ta-e{text-align:end}.gtc-2{grid-template-columns:repeat(2,1fr)}@media screen and (max-width:768px){.gtc-2{grid-template-columns:1fr}}.gtc-3{grid-template-columns:repeat(3,1fr)}@media screen and (max-width:768px){.gtc-3{grid-template-columns:1fr}}.gtc-4{grid-template-columns:repeat(4,1fr)}@media screen and (max-width:768px){.gtc-4{grid-template-columns:repeat(2,1fr)}}@media screen and (max-width:425px){.gtc-4{grid-template-columns:1fr}}.no-copy{-webkit-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none}
+body {
+  color: #fff;
+  font-family: "living_by_numbersregular", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  background: #120B12;
+}
+
+.d-f {
+  display: flex;
+}
+
+.d-g {
+  display: grid;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
+.jc-c {
+  justify-content: center;
+}
+
+.jc-s {
+  justify-content: start;
+}
+
+.jc-e {
+  justify-content: end;
+}
+
+.ai-c {
+  align-items: center;
+}
+
+.fd-c {
+  flex-direction: column;
+}
+
+.fw-w {
+  flex-wrap: wrap;
+}
+
+.ta-c {
+  text-align: center;
+}
+
+.ta-e {
+  text-align: end;
+}
+
+.gtc-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+@media screen and (max-width: 768px) {
+  .gtc-2 {
+    grid-template-columns: 1fr;
+  }
+}
+
+.gtc-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+@media screen and (max-width: 768px) {
+  .gtc-3 {
+    grid-template-columns: 1fr;
+  }
+}
+
+.gtc-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+@media screen and (max-width: 768px) {
+  .gtc-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 425px) {
+  .gtc-4 {
+    grid-template-columns: 1fr;
+  }
+}
+
+.no-copy {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
