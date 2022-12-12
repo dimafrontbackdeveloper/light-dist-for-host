@@ -603,6 +603,12 @@ body {
   transition: 0.2s;
   line-height: 100%;
 }
+.header__nav ul li:hover {
+  transform: scale(110%) !important;
+}
+.header__nav ul li:last-child {
+  margin-right: 0px;
+}
 @media screen and (max-width: 2560px) {
   .header__nav ul li {
     margin-right: 150px;
@@ -625,12 +631,6 @@ body {
     font-size: 40px;
     margin-right: 60px;
   }
-}
-.header__nav ul li:hover {
-  transform: scale(105%);
-}
-.header__nav ul li:last-child {
-  margin-right: 0px;
 }
 @media screen and (max-width: 768px) {
   .header__nav ul li {
