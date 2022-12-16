@@ -17,7 +17,18 @@
     
     <title></title></head>
 
-<body>
+<body class="forbid-scroll">
+    <div class="preloader ">
+        <div class="preloader__block">
+            <div class="preloader__img">
+                <img src="./../assets/images/preloader.png" alt="img">
+            </div>
+            <div class="preloader__progress">
+                <div class="preloader__progress-line"></div>
+            </div>
+        </div>
+    </div>
+
     <div class="wrapper">
         <header class="header">
            <img class="header__bg header__bg1" src="./../assets/images/landscape1.png" alt="landscape">
@@ -203,6 +214,8 @@
             once: true,
         });
     </script>
+    <!-- <script src="dist/resloader.js"></script> -->
+
     <script src="assets/js/app.js"></script>
 </body>
 
