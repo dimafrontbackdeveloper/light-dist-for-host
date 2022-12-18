@@ -294,12 +294,12 @@ body {
   opacity: 0;
 }
 .preloader__block {
-  width: calc(320px + 480 * ((100vw - 320px) / 1600));
+  width: calc(300px + 200 * ((100vw - 320px) / 1600));
   padding-left: 20px;
   padding-right: 20px;
 }
 .preloader__img {
-  width: calc(165px + 170 * ((100vw - 320px) / 1600));
+  width: calc(100px + 100 * ((100vw - 320px) / 1600));
   margin: 0 auto;
   margin-bottom: calc(35px + 15 * ((100vw - 320px) / 1600));
 }
@@ -307,7 +307,7 @@ body {
   background: #2E1930;
   border-radius: 53px;
   width: 100%;
-  height: calc(30px + 20 * ((100vw - 320px) / 1600));
+  height: calc(20px + 20 * ((100vw - 320px) / 1600));
 }
 .preloader__progress-line {
   background: #9D6B97;
@@ -1050,7 +1050,7 @@ body {
 }
 .intro .lamp {
   position: absolute;
-  z-index: 7;
+  z-index: 3;
 }
 @media screen and (max-width: 768px) {
   .intro .lamp {

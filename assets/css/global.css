@@ -94,6 +94,10 @@ body {
     }
 }
 
+.forbid-scroll {
+    overflow: hidden;
+}
+
 .no-copy {
     -webkit-user-select: none;
     -moz-user-select: none;

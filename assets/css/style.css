@@ -280,6 +280,10 @@ body {
     }
 }
 
+.forbid-scroll {
+    overflow: hidden;
+}
+
 .no-copy {
     -webkit-user-select: none;
     -moz-user-select: none;
@@ -289,7 +293,12 @@ body {
 }
 
 .preloader {
-    width: 100vw;
+    position: fixed;
+    z-index: 12;
+    top: 0;
+    left: 0;
+    max-width: 100vw;
+    width: 100%;
     height: 100vh;
     background: linear-gradient(80.76deg, #632644 4.42%, #7C294A 94.32%);
     display: -ms-flexbox;
@@ -303,27 +312,25 @@ body {
 
 .preloader--hide {
     opacity: 0;
-    z-index: -1;
 }
 
 .preloader__block {
-    max-width: 800px;
-    width: 100%;
+    width: calc(320px + 480 * ((100vw - 320px) / 1600));
     padding-left: 20px;
     padding-right: 20px;
 }
 
 .preloader__img {
-    width: 335px;
+    width: calc(165px + 170 * ((100vw - 320px) / 1600));
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: calc(35px + 15 * ((100vw - 320px) / 1600));
 }
 
 .preloader__progress {
     background: #2E1930;
     border-radius: 53px;
     width: 100%;
-    height: 50px;
+    height: calc(30px + 20 * ((100vw - 320px) / 1600));
 }
 
 .preloader__progress-line {
@@ -1226,7 +1233,7 @@ body {
 
 .intro .lamp {
     position: absolute;
-    z-index: 7;
+    z-index: 3;
 }
 
 @media screen and (max-width: 768px) {
