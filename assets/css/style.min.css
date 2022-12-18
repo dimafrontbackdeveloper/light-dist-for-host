@@ -294,14 +294,14 @@ body {
   opacity: 0;
 }
 .preloader__block {
-  width: calc(300px + 200 * ((100vw - 320px) / 1600));
+  width: calc(100px + 150 * ((100vw - 320px) / 1600));
   padding-left: 20px;
   padding-right: 20px;
 }
 .preloader__img {
-  width: calc(100px + 100 * ((100vw - 320px) / 1600));
+  width: calc(75px + 75 * ((100vw - 320px) / 1600));
   margin: 0 auto;
-  margin-bottom: calc(35px + 15 * ((100vw - 320px) / 1600));
+  margin-bottom: calc(15px + 15 * ((100vw - 320px) / 1600));
 }
 .preloader__progress {
   background: #2E1930;
@@ -795,7 +795,7 @@ body {
   }
 }
 .intro__bg-tunnel-obj {
-  z-index: 5;
+  z-index: 4;
   width: 100%;
   left: 0px;
 }
