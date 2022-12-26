@@ -746,6 +746,7 @@ body {
   }
 }
 .header__nav ul li {
+  text-shadow: 5px 0 5px #000, 0 5px 5px #000, -5px 0 5px #000, 0 -5px 5px #000;
   transition: 0.2s;
   line-height: 100%;
 }
@@ -776,6 +777,7 @@ body {
   .header__nav ul li {
     font-size: 40px;
     margin-right: 60px;
+    text-shadow: 3px 0 3px #000, 0 3px 3px #000, -3px 0 3px #000, 0 -3px 3px #000;
   }
 }
 @media screen and (max-width: 768px) {
