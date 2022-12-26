@@ -960,7 +960,7 @@ body {
 
 .intro__bg-shadow {
     position: absolute;
-    z-index: 4;
+    z-index: 7;
     width: 100%;
     left: 0;
     overflow: hidden;
