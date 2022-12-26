@@ -105,3 +105,111 @@ body {
     -o-user-select: none;
     user-select: none;
 }
+
+.burger {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0;
+    z-index: -1;
+    transition: opacity 1s;
+}
+
+.burger--active {
+    opacity: 1;
+    z-index: 12;
+}
+
+.burger ul {
+    position: absolute;
+    z-index: 13;
+    width: 100%;
+    top: 20%;
+    left: 0;
+    background-image: url("./../images/burger-img.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 100px;
+    padding-right: 10px;
+    padding-bottom: 80px;
+    padding-left: calc(80px + 30 * ((100vw - 375px) / 50));
+    font-size: 24px;
+}
+
+@media screen and (max-width: 375px) {
+    .burger ul {
+        padding-top: 90px;
+        padding-bottom: 70px;
+        padding-left: calc(63px + 17 * ((100vw - 320px) / 55));
+    }
+}
+
+.burger li {
+    margin-bottom: 15px;
+}
+
+.burger li:last-child {
+    margin-bottom: 0px;
+}
+
+.burger img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 375px) {
+    .burger img {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+.burger a {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+.dark__bg {
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    background: #000;
+}
+
+.close {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    z-index: -1;
+    display: none;
+}
+
+.close--active {
+    z-index: 0;
+    display: block;
+}
+
+.close img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.open-burger {
+    transition: opacity 0.2s;
+}
+
+.open-burger--hide {
+    opacity: 0;
+    display: none;
+}
+
+.op0 {
+    opacity: 0 !important;
+}
