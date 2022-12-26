@@ -122,7 +122,7 @@ body {
   padding-right: 10px;
   padding-bottom: 80px;
   padding-left: calc(80px + 30 * ((100vw - 375px) / 50));
-  font-size: 24px;
+  font-size: 36px;
 }
 @media screen and (max-width: 375px) {
   .burger ul {
@@ -150,9 +150,6 @@ body {
 }
 .burger a {
   color: #fff;
-  text-transform: uppercase;
-  font-family: sans-serif;
-  text-shadow: 2px 0 2px #000, 0 2px 2px #000, -2px 0 2px #000, 0 -2px 2px #000;
 }
 
 .dark__bg {

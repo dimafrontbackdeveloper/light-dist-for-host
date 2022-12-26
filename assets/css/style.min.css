@@ -303,7 +303,7 @@ body {
   padding-right: 10px;
   padding-bottom: 80px;
   padding-left: calc(80px + 30 * ((100vw - 375px) / 50));
-  font-size: 24px;
+  font-size: 36px;
 }
 @media screen and (max-width: 375px) {
   .burger ul {
@@ -331,9 +331,6 @@ body {
 }
 .burger a {
   color: #fff;
-  text-transform: uppercase;
-  font-family: sans-serif;
-  text-shadow: 2px 0 2px #000, 0 2px 2px #000, -2px 0 2px #000, 0 -2px 2px #000;
 }
 
 .dark__bg {
@@ -746,7 +743,6 @@ body {
   }
 }
 .header__nav ul li {
-  text-shadow: 5px 0 5px #000, 0 5px 5px #000, -5px 0 5px #000, 0 -5px 5px #000;
   transition: 0.2s;
   line-height: 100%;
 }
@@ -777,7 +773,6 @@ body {
   .header__nav ul li {
     font-size: 40px;
     margin-right: 60px;
-    text-shadow: 3px 0 3px #000, 0 3px 3px #000, -3px 0 3px #000, 0 -3px 3px #000;
   }
 }
 @media screen and (max-width: 768px) {

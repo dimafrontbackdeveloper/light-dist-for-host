@@ -169,9 +169,6 @@ body {
 
 .burger a {
     color: #fff;
-    text-transform: uppercase;
-    font-family: sans-serif;
-    text-shadow: 2px 0 2px #000, 0 2px 2px #000, -2px 0 2px #000, 0 -2px 2px #000;
 }
 
 .dark__bg {
